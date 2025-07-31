@@ -42,23 +42,23 @@
 
         QWERTY {
             bindings = <
-&kp ESC         &kp N1       &kp N2          &kp N3            &kp N4        &kp N5          &kp N6      &kp N7          &kp N8             &kp N9           &kp N0                &kp BACKSPACE
-&kp TAB         &kp Q        &kp W           &kp E             &kp R         &kp T           &kp Y       &kp U           &kp I              &kp O            &kp P                 &kp BSLH
-&kp CAPSLOCK    &mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &lt 4 F       &kp G           &kp H       &mt LEFT_WIN J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z        &kp X           &kp C             &kp V         &lt 2 B         &kp N       &kp M           &kp COMMA          &kp DOT          &kp FSLH              &kp RIGHT_SHIFT
-                                             &kp LEFT_CONTROL  &kp SPACE     &mo 1           &kp DELETE  &kp SPACE
-                                                               &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER
+&kp ESC         &kp N1       &kp N2          &kp N3            &kp N4        &kp N5     &kp N6      &kp N7          &kp N8             &kp N9           &kp N0                &kp BACKSPACE
+&kp TAB         &kp Q        &kp W           &kp E             &kp R         &kp T      &kp Y       &kp U           &kp I              &kp O            &kp P                 &kp BSLH
+&kp CAPSLOCK    &mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &lt 1 F       &kp G      &kp H       &mt LEFT_WIN J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z        &kp X           &kp C             &kp V         &lt 2 B    &lt 2 N     &kp M           &kp COMMA          &kp DOT          &kp FSLH              &kp RIGHT_SHIFT
+                                             &kp LEFT_CONTROL  &kp SPACE     &mo 1      &kp DELETE  &kp SPACE
+                                                               &kp LEFT_WIN  &mo 3      &kp ENTER
             >;
         };
 
         F_layers {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7     &kp F8     &kp F9    &kp F10       &kp F11    &kp F12
-&trans  &none   &none   &none   &none   &trans        &none      &none      &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
-&trans  &none   &none   &none   &none   &trans        &mkp LCLK  &mkp RCLK  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &none         &none      &none      &trans    &trans        &none      &trans
-                        &trans  &trans  &To0_macro    &mkp LCLK  &mkp RCLK
-                                &trans  &trans        &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9    &kp F10       &kp F11    &kp F12
+&none   &none   &none   &none   &none   &none     &none   &none   &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
+&none   &none   &none   &none   &none   &none     &none   &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none
+&none   &none   &none   &none   &none   &none     &none   &none   &none     &none         &none      &none
+                        &none   &none   &none     &none   &none
+                                &none   &none     &none
             >;
         };
 
