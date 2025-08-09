@@ -42,10 +42,10 @@
 
         QWERTY {
             bindings = <
-&kp ESC         &kp N1       &kp N2          &kp N3            &kp N4          &kp N5       &kp N6      &kp N7          &kp N8             &mt MINUS N9     &mt EQUAL N0          &kp BACKSPACE
-&kp TAB         &kp Q        &kp W           &kp E             &kp R           &kp T        &kp Y       &kp U           &kp I              &mt LBKT O       &mt RIGHT_BRACKET P   &kp BSLH
-&kp CAPSLOCK    &mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_WIN F  &kp G        &kp H       &mt LEFT_WIN J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z        &kp X           &kp C             &kp V           &lt 2 B      &lt 2 N     &kp M           &kp COMMA          &kp DOT          &kp FSLH              &kp RIGHT_SHIFT
+&kp ESC         &kp N1       &kp N2          &kp N3            &kp N4          &kp N5       &kp N6      &kp N7          &kp N8             &mt MINUS N9     &mt EQUAL N0         &kp BACKSPACE
+&kp TAB         &kp Q        &kp W           &kp E             &kp R           &kp T        &kp Y       &kp U           &kp I              &mt LBKT O       &mt RIGHT_BRACKET P  &kp BSLH
+&kp CAPSLOCK    &mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_WIN F  &kp G        &kp H       &mt LEFT_WIN J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RCTRL SEMI       &kp SQT
+&kp LEFT_SHIFT  &kp Z        &kp X           &kp C             &kp V           &lt 2 B      &lt 2 N     &kp M           &kp COMMA          &kp DOT          &kp FSLH             &kp RIGHT_SHIFT
                                              &mo 1             &kp SPACE       &mkp LCLK    &kp DELETE  &kp SPACE
                                                                &mkp MCLK       &mkp RCLK    &kp ENTER
             >;
