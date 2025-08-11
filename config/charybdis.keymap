@@ -53,11 +53,11 @@
 
         F_layers {
             bindings = <
-&kp F1  &kp F2     &kp F3        &kp F4      &kp F5       &kp F6    &kp F7           &kp F8           &kp F9           &kp F10   &kp F11    &kp F12
-&none   &kp FSLH   &kp ASTERISK  &kp MINUS   &kp PLUS     &none     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RBKT  &kp MINUS  &kp EQUAL
-&none   &kp LCTRL  &kp LEFT_ALT  &kp LSHIFT  &lt 3 ENTER  &none     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none     &kp UP     &none
-&none   &none      &none         &none       &none        &none     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT  &kp DOWN   &kp RIGHT
-                                 &none       &none        &none     &kp KP_NUMBER_0  &mkp MB5
+&kp F1  &kp F2     &kp F3        &kp F4      &kp F5       &kp F6    &kp F7        &kp F8        &kp F9        &kp F10   &kp F11    &kp F12
+&none   &kp FSLH   &kp ASTERISK  &kp MINUS   &kp PLUS     &none     &kp N7        &kp N8        &kp N9        &kp RBKT  &kp MINUS  &kp EQUAL
+&none   &kp LCTRL  &kp LEFT_ALT  &kp LSHIFT  &lt 3 ENTER  &none     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none     &kp UP     &none
+&none   &none      &none         &none       &none        &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT  &kp DOWN   &kp RIGHT
+                                 &none       &none        &none     &kp N0        &mkp MB5
                                              &none        &none     &mkp MB4
             >;
         };
