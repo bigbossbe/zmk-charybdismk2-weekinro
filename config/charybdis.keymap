@@ -6,7 +6,7 @@
 
 &lt {
     tapping-term-ms = <450>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
 
